@@ -16,8 +16,8 @@
             <img class="image" src="img/coderspy.png" alt="logo image missing">
         </div>
         <div class="right-side-menu">
-            <a href="index.php" class="manu-bar">Home</a>
-            <a href="about.php" class="manu-bar">About</a>
+            <a href="index.php?page=index" class="manu-bar <?php if($_GET['page']=='index') echo 'active-menu';?> ">Home</a>
+            <a href="about.php?page=about" class="manu-bar <?php if($_GET['page']=='about') echo 'active-menu';?> ">About</a>
             <a href="education.php" class="manu-bar">Education</a>
             <a href="registration.php" class="manu-bar">Registration</a>
             <a href="contact.php" class="manu-bar">Contact</a>

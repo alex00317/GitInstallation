@@ -46,8 +46,8 @@
                     <option value="Christianity">Christianity</option>
                     <option value="Hinduism">Hinduism</option>
                 </select>
-            </div>
-            <div class="row">Select Country
+
+                Select Country
                 <select name="" id="">
                     <option value="bangladesh">Bangladesh</option>
                     <option value="Japan">Japan</option>
@@ -58,12 +58,35 @@
                 </select>
             </div>
 
+            <div class="file">Attach your File
+                <input  type="file" name="name">
+                <input type="color">
+            </div>
+
+            <div class="row">Set Date
+                <input type="date">
+                <input type="hidden">
+                <input type="month" name="month">Select month
+            </div>
+
+            <div class="row">
+                <input type="range">
+                <input type="reset">
+                <input type="search">set Time
+                <input type="time">
+                <input type="tel">
+            </div>
+
+            <input type="url">
+            <input type="week" value="#" placeholder="week">
             <button style="color: red"> Clear Data</button>
             <button style="color: green"><a href="from.pdf" target="blank"> Data Preview</a></button>
             <button style="color: red"> Exit</button>
-            <input type="file" name="name">
-
+            
+            
             <button class="btn register" type="submit">Register</button>
+            
+
 
         </form>
 
