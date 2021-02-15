@@ -1,0 +1,284 @@
+.menu{
+    height: 100px;
+    background: #0f0a0a;
+    width: 100%;
+}
+.logo{
+    width: 20%;
+    height: 120px;
+    float: left;
+    padding: 5px;
+    margin-left: 5px;
+}
+.right-side-menu{
+    width: 79%;
+    height: 120px;
+    float: right;
+    text-align: center;
+    padding-top: 35px;
+}
+.logo-text{
+    color:black; 
+    text-align: center;
+}
+.slogan{
+    text-align: center;
+    color: blueviolet;
+}
+.manu-bar{
+    background: ##0f0a0a;
+    padding: 22px 58px;
+    color: white;
+    text-decoration: none;
+    font-family: Elephant;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.manu-bar:hover{
+    background: rgb(247, 243, 243);
+    text-decoration: none;
+}
+
+
+
+
+
+/* body section */
+.body-section1{
+    width: 100%;
+    margin-top: 125px;
+    background: #f9dfdf  !important;
+    height: 370px;
+    padding-top: 15px;
+}
+.body-section2{
+    width: 100%;
+    margin-top: 25px;
+    background: #d8fad0  !important;
+    height: 370px;
+    padding-top: 15px;
+}
+.body-section3{
+    width: 100%;
+    margin-top: 25px;
+    background: #f1f9df  !important;
+    height: 370px;
+    padding-top: 15px;
+}
+
+
+.body-image{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.body-text{
+    width: 80%;
+    float: right;
+    text-align: center;
+    padding: 12px;
+    
+    /* background-image: url('bg.jpg'); */
+}
+ .image {
+    width: 90%;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid #16a91a;
+}
+
+.contact{height: 450px;
+    width: 100%;
+    background: #ececec;
+    padding: 46px;
+}
+/*footer*/
+.footer{height: 80px;
+    width: 100%;
+    background: #0f0a0a;
+    text-align: center;
+    padding: 20px;}
+
+
+
+
+.copy-right{color: white;
+    
+
+}
+
+
+
+/*footer end*/
+
+
+/* contact page  */
+.input{
+    width: 98%;
+    height: 30px;
+    margin: 10px;
+}
+.message{
+    width: 98%;
+    height: 100px;
+    margin: 10px;
+}
+.button{
+    width: 200px;
+height: 30px;
+background: green;
+color: white;
+font-size: 18px;
+float: right;
+}
+hr{
+    width: 50%;
+    text-align: left;
+}
+.button:hover{
+    background: red;
+}
+
+.div-contact{ width: 100%;
+    margin-top: 133px;
+    background: #f1f9df  !important;
+    height: 500px;
+    padding-top: 15px;
+
+}
+.right-side{width: 60%;
+   
+    background: #f7bee6  !important;
+    height: 370px;
+    padding: 15px;
+    float: right;
+
+}
+
+.laft-side{width: 30%;
+    
+    width: 30%;
+
+height: 370px;
+padding: 15px;
+margin-left: 15px;
+float: left;
+
+}
+ul{
+    color: rgb(22, 21, 21);
+    font-size: 30px;
+    font-family: Elephant;
+
+}
+ul li{padding-top: 10px;
+
+}
+
+/*about*/
+.about-body{
+    width: 100%;
+    margin-top: 25px;
+    background: #f1f9df  !important;
+    height: 500px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.container{margin-top: 133px;}
+
+
+/* education */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+
+.table tr td{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 15px;
+    background-color: #faf27e;
+}
+
+.table tr th{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 15px;
+    background-color: #faf27e;
+}
+
+.table-custom{width: 100%;
+    border-collapse: collapse;}
+
+    .table-custom tr td {border: 1px solid black;
+        text-align: center;
+        border-collapse: collapse;
+        padding: 15px;
+        background-color: #faf27e;}
+
+        .table-custom tr th{border: 1px solid black;
+            text-align: center;
+            border-collapse: collapse;
+            padding: 15px;
+            background-color: #faf27e;
+            font-size: 25px;
+        }
+
+/*reg page*/
+.reg-body{height: 700px;
+    width: 100%;
+    margin-top: 107px;
+    background-color: azure;
+    
+
+}
+.reg-laft-side{ height: 680px;
+    width:60% ;
+    background-color: #ffffba;
+    float: left;
+    text-align: center;
+    border: 1px solid;
+    
+    margin: 10px;
+}
+.reg-right-side{height: 680px;
+    width:37.5% ;
+    background-color: rgb(233, 249, 245);
+    float: right;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-right: 10px;
+   
+    text-align: center;
+    
+}
+
+.row{width: 94%;
+    display: block;
+    margin: 11px;
+
+}
+
+.inputText{width: 83%;
+    padding: 2px;
+    padding: 5px;
+    text-align: center;
+    
+
+}
+button:hover{
+    background: rgb(125, 231, 160);
+    color:white
+
+ }
+
+
+/*reg page end */
+
+
+
